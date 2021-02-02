@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widgets/main_drawer.dart';
 
 class FiltersScreen extends StatefulWidget {
@@ -49,7 +48,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Your Filters'),
+        title: Text('Vos favoris'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.save),
@@ -71,7 +70,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           Container(
             padding: EdgeInsets.all(20),
             child: Text(
-              'Adjust your meal selection.',
+              'Adjoutz votre selection de repas.',
               style: Theme.of(context).textTheme.title,
             ),
           ),
